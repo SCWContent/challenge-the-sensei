@@ -1,6 +1,6 @@
-package com.sensei.bitwiseoperators;
+package com.securecodewarrior.bitwiseoperators;
 
-public class BitwiseOperatorsCorrect {
+public class BitwiseOperatorsIncorrect {
 
     public static void main(String[] args) {
         parseArgs(new String[]{null, "-h"});
@@ -8,7 +8,7 @@ public class BitwiseOperatorsCorrect {
 
     public static void parseArgs(String[] args) {
         for (String arg : args) {
-            if (arg != null && arg.contains("-h")) {
+            if (arg != null & arg.contains("-h")) {
                 System.out.println("Help!");
             }
         }

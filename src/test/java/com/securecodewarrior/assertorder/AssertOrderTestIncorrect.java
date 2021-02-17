@@ -1,4 +1,4 @@
-package com.sensei.assertorder;
+package com.securecodewarrior.assertorder;
 
 import org.junit.Test;
 

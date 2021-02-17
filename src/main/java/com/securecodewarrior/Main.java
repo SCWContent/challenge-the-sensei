@@ -1,4 +1,4 @@
-package com.sensei;
+package com.securecodewarrior;
 
 public class Main {
 

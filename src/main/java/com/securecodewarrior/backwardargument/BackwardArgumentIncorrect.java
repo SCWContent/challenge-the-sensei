@@ -1,4 +1,4 @@
-package com.sensei.backwardargument;
+package com.securecodewarrior.backwardargument;
 
 public class BackwardArgumentIncorrect {
 

@@ -1,9 +1,8 @@
-package com.sensei.assertorder;
+package com.securecodewarrior.assertorder;
 
-import org.junit.Test;
+import org.junit.*;
 
 import static org.assertj.core.api.Assertions.assertThat;
-
 
 public class AssertOrderTestCorrect {
 

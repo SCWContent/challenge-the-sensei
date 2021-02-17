@@ -1,4 +1,4 @@
-package com.sensei.convertolong;
+package com.securecodewarrior.convertolong;
 
 public class ConvertToLong {
 

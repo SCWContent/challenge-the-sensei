@@ -1,6 +1,4 @@
-package com.sensei.catchtimeout;
-
-import java.util.concurrent.TimeoutException;
+package com.securecodewarrior.catchtimeout;
 
 public class CatchTimeout {
 

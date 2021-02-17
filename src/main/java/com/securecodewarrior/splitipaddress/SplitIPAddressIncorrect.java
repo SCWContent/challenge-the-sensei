@@ -1,4 +1,4 @@
-package com.sensei.splitipaddress;
+package com.securecodewarrior.splitipaddress;
 
 import java.util.Arrays;
 
