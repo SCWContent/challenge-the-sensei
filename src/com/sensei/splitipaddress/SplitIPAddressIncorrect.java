@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class SplitIPAddressIncorrect {
 
     public static void main(String[] args) {
-	    String[] octets = "192,.168.1.2".split(".");
-	    System.out.println(Arrays.toString(octets));
+        String[] octets = "192.168.1.2".split(".");
+        System.out.println(Arrays.toString(octets));
     }
 }
