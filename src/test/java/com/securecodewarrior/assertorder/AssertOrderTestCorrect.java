@@ -6,7 +6,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class AssertOrderTestCorrect {
 
-    @Test
+    // now that the code is fixed, the assertion is broken so we have a ComparisonFailure
+    @Test(expected = ComparisonFailure.class)
     public void testAssertOrder() {
         Integer[] integerArray = new Integer[]{1, 2};
         assertOrder(integerArray, 1, 2, 3);
