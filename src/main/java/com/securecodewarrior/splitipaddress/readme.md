@@ -51,4 +51,4 @@ This quickfix simply modifies the first argument by replacing the first argument
 
 **Try this for yourself:**
 
-- **in the `SplitIPAddressIncorrect` code. We created a recipe to highlight split calls with an unescaped dot as the first argument, and amend it to escape the dot.**
+- **in the `SplitIPAddressIncorrect` code. We created a recipe to highlight split calls with an unescaped dot as the first argument. Use it to amend the code and escape the dot.**
