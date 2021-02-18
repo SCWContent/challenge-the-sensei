@@ -4,7 +4,7 @@ In this line of code, we see an assertion that 2 values are the same:
 ``` 
 assertThat(actual.length).isEqualTo(actual.length);
 ```
-But because of a mistake, it's actually comparing the a value to itself, when the intention clearly would be to compare it to an `expected` value. 
+But because of a mistake, it's actually comparing the actual value to itself, when the intention clearly would be to compare it to an `expected` value. 
 
 The above assertion would never actually be one that would be intentional. So having those types of things in your codebase means that your unit tests could be lying to you. You'd want to detect and fix those issues as you're writing the tests. 
 
@@ -30,4 +30,4 @@ This recipe searches for any `assertThat` call which is followed by a method cal
 
 **Try this for yourself:**
 
-- **in the `AssertOrderTestIncorrect` code. We created a recipe which will detect the incorrect assertion. **
+- **in the `AssertOrderTestIncorrect` code. We created a recipe which will detect the incorrect assertion.**
