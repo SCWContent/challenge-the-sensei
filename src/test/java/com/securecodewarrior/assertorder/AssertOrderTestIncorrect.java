@@ -17,7 +17,7 @@ public class AssertOrderTestIncorrect {
         for (int i = 0; i < actual.length; i++) {
             assertThat(actual[i]).isEqualTo(expected[i]);
         }
-        assertThat(actual.length).isEqualTo(actual.length);
+        assertThat(actual.length).as("Hello").isEqualTo(actual.length);
     }
 
 
